@@ -49,10 +49,19 @@
 		<Item Name="Turn Results.ctl" Type="VI" URL="../Turn Results.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="Direction Offsets Const.vi" Type="VI" URL="../Direction Offsets Const.vi"/>
-		<Item Name="Resolve Direction Position.vi" Type="VI" URL="../Resolve Direction Position.vi"/>
-		<Item Name="Rotate CCW.vi" Type="VI" URL="../Rotate CCW.vi"/>
-		<Item Name="Rotate CW.vi" Type="VI" URL="../Rotate CW.vi"/>
+		<Item Name="Actions" Type="Folder">
+			<Item Name="Attack Action.vi" Type="VI" URL="../Attack Action.vi"/>
+			<Item Name="Move Action.vi" Type="VI" URL="../Move Action.vi"/>
+			<Item Name="Replicate Action.vi" Type="VI" URL="../Replicate Action.vi"/>
+			<Item Name="Wait Action.vi" Type="VI" URL="../Wait Action.vi"/>
+		</Item>
+		<Item Name="Directions" Type="Folder">
+			<Item Name="Direction Offsets Const.vi" Type="VI" URL="../Direction Offsets Const.vi"/>
+			<Item Name="Opposing Direction.vi" Type="VI" URL="../Opposing Direction.vi"/>
+			<Item Name="Resolve Direction Position.vi" Type="VI" URL="../Resolve Direction Position.vi"/>
+			<Item Name="Rotate CCW.vi" Type="VI" URL="../Rotate CCW.vi"/>
+			<Item Name="Rotate CW.vi" Type="VI" URL="../Rotate CW.vi"/>
+		</Item>
 		<Item Name="Team Colors.vi" Type="VI" URL="../Team Colors.vi"/>
 	</Item>
 	<Item Name="Game.lvclass" Type="LVClass" URL="../Game/Game.lvclass"/>
