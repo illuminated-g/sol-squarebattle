@@ -9,6 +9,7 @@
 		<Item Name="Display Mode.ctl" Type="VI" URL="../Display Mode.ctl"/>
 		<Item Name="Game Start Data.ctl" Type="VI" URL="../Game Start Data.ctl"/>
 		<Item Name="Square Map Update Data.ctl" Type="VI" URL="../Square Map Update Data.ctl"/>
+		<Item Name="Start Position Data.ctl" Type="VI" URL="../Start Position Data.ctl"/>
 		<Item Name="Team Map Update Data.ctl" Type="VI" URL="../Team Map Update Data.ctl"/>
 	</Item>
 	<Item Name="Panels" Type="Folder">

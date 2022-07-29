@@ -1,4 +1,4 @@
-*** Do not edit any of the code in the Deps folder in the project. If there is an issue in any code in the dependencies contact Derrick Bommarito.
+*** Do not edit any of the code in the dependencies in the project. If there is an issue in any code in the dependencies contact Derrick Bommarito.
 
 1. After copying this template folder, open the project and rename the SquareTeam.lvlib to a different name. The new name isn't super important but should not have the same name as anybody else's team library so a safe bet is to include your name. If creating multiple teams, make sure each library rename includes your name and the unique team name.
 

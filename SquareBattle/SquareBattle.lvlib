@@ -43,6 +43,7 @@
 		<Item Name="Location Status.ctl" Type="VI" URL="../Location Status.ctl"/>
 		<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
 		<Item Name="Run Result.ctl" Type="VI" URL="../Run Result.ctl"/>
+		<Item Name="Team ID.ctl" Type="VI" URL="../Team ID.ctl"/>
 		<Item Name="Team Start Info.ctl" Type="VI" URL="../Team Start Info.ctl"/>
 		<Item Name="Team Stats.ctl" Type="VI" URL="../Team Stats.ctl"/>
 		<Item Name="Turn Results.ctl" Type="VI" URL="../Turn Results.ctl"/>
