@@ -13,12 +13,18 @@
 		<Item Name="Team Map Update Data.ctl" Type="VI" URL="../Team Map Update Data.ctl"/>
 	</Item>
 	<Item Name="Panels" Type="Folder">
-		<Item Name="Dashboard Panel.lvclass" Type="LVClass" URL="../Dashboard Panel/Dashboard Panel.lvclass"/>
-		<Item Name="Game Config Panel.lvclass" Type="LVClass" URL="../Game Config Panel/Game Config Panel.lvclass"/>
-		<Item Name="Square Field Panel.lvclass" Type="LVClass" URL="../Square Field Panel/Square Field Panel.lvclass"/>
-		<Item Name="Team Config Panel.lvclass" Type="LVClass" URL="../Team Config Panel/Team Config Panel.lvclass"/>
-		<Item Name="Team Dashboard Panel.lvclass" Type="LVClass" URL="../Team Dashboard Panel/Team Dashboard Panel.lvclass"/>
-		<Item Name="Team Field Panel.lvclass" Type="LVClass" URL="../Team Field Panel/Team Field Panel.lvclass"/>
+		<Item Name="Left" Type="Folder">
+			<Item Name="Dashboard Panel.lvclass" Type="LVClass" URL="../Dashboard Panel/Dashboard Panel.lvclass"/>
+			<Item Name="Game Config Panel.lvclass" Type="LVClass" URL="../Game Config Panel/Game Config Panel.lvclass"/>
+		</Item>
+		<Item Name="Right" Type="Folder">
+			<Item Name="Square Field Panel.lvclass" Type="LVClass" URL="../Square Field Panel/Square Field Panel.lvclass"/>
+			<Item Name="Team Field Panel.lvclass" Type="LVClass" URL="../Team Field Panel/Team Field Panel.lvclass"/>
+		</Item>
+		<Item Name="Teams" Type="Folder">
+			<Item Name="Team Config Panel.lvclass" Type="LVClass" URL="../Team Config Panel/Team Config Panel.lvclass"/>
+			<Item Name="Team Dashboard Panel.lvclass" Type="LVClass" URL="../Team Dashboard Panel/Team Dashboard Panel.lvclass"/>
+		</Item>
 	</Item>
 	<Item Name="SB App.lvclass" Type="LVClass" URL="../SB App/SB App.lvclass"/>
 </Library>
