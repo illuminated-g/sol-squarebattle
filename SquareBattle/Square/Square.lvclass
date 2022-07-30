@@ -234,14 +234,5 @@ When Replicating, the square specifies the new instance of a square to use and c
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
-		<Item Name="Wait if Occupied.vi" Type="VI" URL="../Wait if Occupied.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'K!!!!"A!%!!!!8Q$R!!!!!!!!!!)35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC#E&amp;D&gt;'FP&lt;CZD&gt;'Q!/5!7!!1%6W&amp;J&gt;!2.&lt;X:F"E&amp;U&gt;'&amp;D;QF3:8"M;7.B&gt;'5!!""3:8.V&lt;(2J&lt;G=A17.U;7^O!!";!0%!!!!!!!!!!B*4=86B=G6#982U&lt;'5O&lt;(:M;7).2'FS:7.U;7^O,G.U&lt;!!R1"9!#!*/6Q&amp;/!EZ&amp;!55#5U5"5Q*46Q&amp;8!"&amp;%:8.J=G6E)%2J=G6D&gt;'FP&lt;A"&gt;!0%!!!!!!!!!!B*4=86B=G6#982U&lt;'5O&lt;(:M;7)+17.U;7^O,G.U&lt;!!X1"9!"!2897FU"%VP&gt;G5'182U97.L#6*F='RJ9W&amp;U:1!!$E2F=WFS:71A17.U;7^O!!!U1(!!(A!!)R*4=86B=G6#982U&lt;'5O&lt;(:M;7)/5X&amp;V98*F,GRW9WRB=X-!"F.R&gt;7&amp;S:1!!6!$Q!!Q!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!!1#!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!%!!!!"!!!!!!!1!&amp;!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
-		</Item>
 	</Item>
 </LVClass>
