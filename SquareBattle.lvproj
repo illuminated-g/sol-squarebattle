@@ -11,7 +11,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Squares" Type="Folder">
+			<Item Name="Template" Type="Folder">
+				<Item Name="SquareTeam.lvlib" Type="Library" URL="../Squares/Template/SquareTeam/SquareTeam.lvlib"/>
+			</Item>
+			<Item Name="Clones.lvlib" Type="Library" URL="../Squares/Clones/SquareTeam/Clones.lvlib"/>
+			<Item Name="DemoTeam.lvlib" Type="Library" URL="../Squares/Demo/SquareTeam/DemoTeam.lvlib"/>
 			<Item Name="DNattTeam.lvlib" Type="Library" URL="../Squares/DNatt/SquareTeam/DNattTeam.lvlib"/>
+			<Item Name="Galaxy.lvlib" Type="Library" URL="../Squares/Galaxy/SquareTeam/Galaxy.lvlib"/>
+			<Item Name="Rain.lvlib" Type="Library" URL="../Squares/Rain/SquareTeam/Rain.lvlib"/>
 		</Item>
 		<Item Name="SB App.lvlib" Type="Library" URL="../SB App/SB App.lvlib"/>
 		<Item Name="SquareBattle.lvlib" Type="Library" URL="../SquareBattle/SquareBattle.lvlib"/>

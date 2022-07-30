@@ -54,6 +54,7 @@
 			<Item Name="Move Action.vi" Type="VI" URL="../Move Action.vi"/>
 			<Item Name="Replicate Action.vi" Type="VI" URL="../Replicate Action.vi"/>
 			<Item Name="Wait Action.vi" Type="VI" URL="../Wait Action.vi"/>
+			<Item Name="Wait If Occupied.vi" Type="VI" URL="../Wait If Occupied.vi"/>
 		</Item>
 		<Item Name="Directions" Type="Folder">
 			<Item Name="Direction Offsets Const.vi" Type="VI" URL="../Direction Offsets Const.vi"/>
