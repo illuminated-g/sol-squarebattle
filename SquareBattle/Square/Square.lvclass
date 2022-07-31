@@ -43,13 +43,13 @@ When Replicating, the square specifies the new instance of a square to use and c
 	<Item Name="Community" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Do Attacked.vi" Type="VI" URL="../Do Attacked.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!"1!%!!!!.%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!)6'6B&lt;3"P&gt;81!!$*!=!!?!!!B%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AR5:7&amp;N,GRW9WRB=X-!"V2F97UA37Y!.%"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!:4=86B=G5!!&amp;1!]!!-!!!!!1!!!!!!!!!!!!!!!!!!!!)!!!!$!Q!!?!!!!!!!!!U*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!!!!!!!3!!!!!!%!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&gt;!!!!"Q!%!!!!.%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!)6'6B&lt;3"P&gt;81!!$*!=!!?!!!B%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AR5:7&amp;N,GRW9WRB=X-!"V2F97UA37Y!$5!$!!&gt;/&gt;7VF=GFD!":!1!!"`````Q!$#5&amp;U&gt;'&amp;D;W6S=Q!U1(!!(A!!)R*4=86B=G6#982U&lt;'5O&lt;(:M;7)/5X&amp;V98*F,GRW9WRB=X-!"F.R&gt;7&amp;S:1!!6!$Q!!Q!!!!"!!!!!!!!!!!!!!!!!!!!!A!%!!5$!!"Y!!!!!!!!$1E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!3!!!#%!!!!")!!!!!!1!'!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 		<Item Name="Do Collision.vi" Type="VI" URL="../Do Collision.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!"1!%!!!!.%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!)6'6B&lt;3"P&gt;81!!$*!=!!?!!!B%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AR5:7&amp;N,GRW9WRB=X-!"V2F97UA;7Y!.%"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!:4=86B=G5!!&amp;1!]!!-!!!!!1!!!!!!!!!!!!!!!!!!!!)!!!!$!Q!!?!!!!!!!!!U*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!!!!!!!3!!!!!!%!"!!!!!!</Property>
@@ -105,13 +105,13 @@ When Replicating, the square specifies the new instance of a square to use and c
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Attacked.vi" Type="VI" URL="../Attacked.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!#!!%!!!!-%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!%6'6B&lt;1!!/%"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!J4=86B=G5A&lt;X6U!!!S1(!!(A!!)2*4=86B=G6#982U&lt;'5O&lt;(:M;7)-6'6B&lt;3ZM&gt;G.M98.T!!&gt;5:7&amp;N)%FO!"6!!Q!/182U97.L:8)A37ZE:8A!!%=!]1!!!!!!!!!#%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9B&amp;"&gt;(2B9WNF:#"*&lt;G:P,G.U&lt;!!;1&amp;!!!1!%$5&amp;U&gt;'&amp;D;W6E)%FO:G]!.E"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!F4=86B=G5A;7Y!6!$Q!!Q!!!!"!!!!!A!!!!!!!!!!!!!!!Q!&amp;!!9#!!"Y!!!!!!!!$1E!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!%!!!!*!!!!!!!1!(!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'7!!!!#1!%!!!!-%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!%6'6B&lt;1!!/%"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!J4=86B=G5A&lt;X6U!!!S1(!!(A!!)2*4=86B=G6#982U&lt;'5O&lt;(:M;7)-6'6B&lt;3ZM&gt;G.M98.T!!&gt;5:7&amp;N)%FO!!V!!Q!(4H6N:8*J9Q!71%!!!@````]!"!F"&gt;(2B9WNF=H-!1Q$R!!!!!!!!!!)35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC%5&amp;U&gt;'&amp;D;W6E)%FO:G]O9X2M!":!5!!"!!5*182U97.L:8*T!$:!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!*5X&amp;V98*F)'FO!&amp;1!]!!-!!!!!1!!!!)!!!!!!!!!!!!!!!-!"A!(!A!!?!!!!!!!!!U*!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!"!!!!#1!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 		<Item Name="Cleanup.vi" Type="VI" URL="../Cleanup.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#5!!!!!Q!%!!!!.%"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!:4=86B=G5!!&amp;1!]!!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!A!!?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!%!!A!!!!!</Property>

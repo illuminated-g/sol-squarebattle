@@ -11,6 +11,7 @@
 		<Item Name="Square Map Update Data.ctl" Type="VI" URL="../Square Map Update Data.ctl"/>
 		<Item Name="Start Position Data.ctl" Type="VI" URL="../Start Position Data.ctl"/>
 		<Item Name="Team Map Update Data.ctl" Type="VI" URL="../Team Map Update Data.ctl"/>
+		<Item Name="Team Status Data.ctl" Type="VI" URL="../Team Status Data.ctl"/>
 	</Item>
 	<Item Name="Panels" Type="Folder">
 		<Item Name="Left" Type="Folder">

@@ -45,6 +45,7 @@
 		<Item Name="Run Result.ctl" Type="VI" URL="../Run Result.ctl"/>
 		<Item Name="Team ID.ctl" Type="VI" URL="../Team ID.ctl"/>
 		<Item Name="Team Start Info.ctl" Type="VI" URL="../Team Start Info.ctl"/>
+		<Item Name="Team State.ctl" Type="VI" URL="../Team State.ctl"/>
 		<Item Name="Team Stats.ctl" Type="VI" URL="../Team Stats.ctl"/>
 		<Item Name="Turn Results.ctl" Type="VI" URL="../Turn Results.ctl"/>
 	</Item>
@@ -57,11 +58,14 @@
 			<Item Name="Wait If Occupied.vi" Type="VI" URL="../Wait If Occupied.vi"/>
 		</Item>
 		<Item Name="Directions" Type="Folder">
-			<Item Name="Direction Offsets Const.vi" Type="VI" URL="../Direction Offsets Const.vi"/>
+			<Item Name="Direction Position Offsets.vi" Type="VI" URL="../Direction Position Offsets.vi"/>
 			<Item Name="Opposing Direction.vi" Type="VI" URL="../Opposing Direction.vi"/>
-			<Item Name="Resolve Direction Position.vi" Type="VI" URL="../Resolve Direction Position.vi"/>
 			<Item Name="Rotate CCW.vi" Type="VI" URL="../Rotate CCW.vi"/>
 			<Item Name="Rotate CW.vi" Type="VI" URL="../Rotate CW.vi"/>
+		</Item>
+		<Item Name="Position" Type="Folder">
+			<Item Name="Normalize Position.vi" Type="VI" URL="../Normalize Position.vi"/>
+			<Item Name="Resolve Direction Position.vi" Type="VI" URL="../Resolve Direction Position.vi"/>
 		</Item>
 		<Item Name="HRS Elapsed Timer.vim" Type="VI" URL="../HRS Elapsed Timer.vim"/>
 		<Item Name="Team Colors.vi" Type="VI" URL="../Team Colors.vi"/>
