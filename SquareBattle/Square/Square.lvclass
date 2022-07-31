@@ -79,13 +79,13 @@ When Replicating, the square specifies the new instance of a square to use and c
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
 		<Item Name="Init.vi" Type="VI" URL="../Init.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!#!!%!!!!.%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!)6'6B&lt;3"P&gt;81!!$B!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!+5X&amp;V98*F)'^V&gt;!!!#U!(!!63&lt;X6O:!!S1(!!(A!!)2*4=86B=G6#982U&lt;'5O&lt;(:M;7)-6'6B&lt;3ZM&gt;G.M98.T!!&gt;5:7&amp;N)'FO!"&amp;!!Q!+1G^B=G1A5WF[:1!!.E"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!F4=86B=G5A;7Y!91$Q!!Q!!!!"!!!!!A!!!!!!!!!$!!!!"!!&amp;!!9$!!"Y!!!!!!!!$1E!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!%!!!!!!!!!!3!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'P!!!!#Q!%!!!!.%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!)6'6B&lt;3"P&gt;81!!$B!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!+5X&amp;V98*F)'^V&gt;!!!#5!$!!.3&lt;X=!#5!$!!.$&lt;WQ!1!$R!!!!!!!!!!)35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;"P=WFU;7^O,G.U&lt;!!91&amp;!!!A!$!!1)5'^T;82J&lt;WY!!!N!"Q!&amp;5G^V&lt;G1!-E"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!(6'6B&lt;3"J&lt;A!21!-!#E*P98*E)&amp;.J?G5!!$:!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!*5X&amp;V98*F)'FO!'%!]!!-!!!!!1!!!!)!!!!!!!5!"A!!!!=!#!!*!Q!!?!!!!!!!!!U*!!!!!!!!$1M!!!!!!!!!!!!!%!!!!"!!!!!!!!!!%A!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Set Team Index.vi" Type="VI" URL="../Set Team Index.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!+5X&amp;V98*F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!-!#F2F97UA37ZE:8A!!$:!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!*5X&amp;V98*F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>

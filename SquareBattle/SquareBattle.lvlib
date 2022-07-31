@@ -63,6 +63,7 @@
 			<Item Name="Rotate CCW.vi" Type="VI" URL="../Rotate CCW.vi"/>
 			<Item Name="Rotate CW.vi" Type="VI" URL="../Rotate CW.vi"/>
 		</Item>
+		<Item Name="HRS Elapsed Timer.vim" Type="VI" URL="../HRS Elapsed Timer.vim"/>
 		<Item Name="Team Colors.vi" Type="VI" URL="../Team Colors.vi"/>
 	</Item>
 	<Item Name="Game.lvclass" Type="LVClass" URL="../Game/Game.lvclass"/>
