@@ -174,11 +174,11 @@ When Replicating, the square specifies the new instance of a square to use and c
 		<Item Name="Direction Status.vi" Type="VI" URL="../Direction Status.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!#!!%!!!!#E!B"56N=(2Z!!R!)1:'=GFF&lt;G1!!!J!)16&amp;&lt;G6N?1"(!0%!!!!!!!!!!B*4=86B=G6#982U&lt;'5O&lt;(:M;7)44'^D982J&lt;WYA5X2B&gt;(6T,G.U&lt;!!91&amp;!!!Q!"!!)!!Q:4&gt;'&amp;U&gt;8-!!&amp;)!]1!!!!!!!!!#%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AV%;8*F9X2J&lt;WYO9X2M!#F!&amp;A!)!EZ8!5Y#4E5"21*421&amp;4!F.8!6=!#52J=G6D&gt;'FP&lt;A!U1(!!(A!!)R*4=86B=G6#982U&lt;'5O&lt;(:M;7)/5X&amp;V98*F,GRW9WRB=X-!"F.R&gt;7&amp;S:1!!6!$Q!!Q!!!!!!!1!!!!!!!!!!!!!!!!!!!!&amp;!!9#!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!"!!!!!!!1!(!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777218</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268972544</Property>
 		</Item>
 		<Item Name="Find Empty.vi" Type="VI" URL="../Find Empty.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%%!!!!"1!%!!!!5A$R!!!!!!!!!!)35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$52J=G6D&gt;'FP&lt;CZD&gt;'Q!+5!7!!A#4F="4A*/21&amp;&amp;!F.&amp;!6-#5V="6Q!*2'FS:7.U;7^O!"Z!1!!"`````Q!"%%6N=(2Z)%2J=G6D&gt;'FP&lt;H-!!$2!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!'5X&amp;V98*F!!"5!0!!$!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!1!!!!!</Property>

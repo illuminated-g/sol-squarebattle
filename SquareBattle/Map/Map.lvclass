@@ -109,11 +109,11 @@ The map is only used by a game instance and is not directly accessible to square
 		<Item Name="Collect Actions.vi" Type="VI" URL="../Collect Actions.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#!!%!!!!0%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!25X&amp;V98*F1G&amp;U&gt;'RF/F2F97U!%E"!!!(`````!!%&amp;6'6B&lt;8-!-E"Q!"Y!!#!35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC#UVB=#ZM&gt;G.M98.T!!!(47&amp;Q)'^V&gt;!!,1!=!"6*P&gt;7ZE!":!1!!"`````Q!"#&amp;2F97VT)%FO!!!S1(!!(A!!)"*4=86B=G6#982U&lt;'5O&lt;(:M;7),47&amp;Q,GRW9WRB=X-!!!:.98!A;7Y!!'%!]!!-!!!!!A!!!!-!!!!!!!!!"!!!!!5!!!!'!Q!!?!!!!!!!!!U*!!!!!!!!#1!!!!!!!!!!!!!!!!!!!"!!!!!!!!!#%A!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!=!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342714385</Property>
 		</Item>
 		<Item Name="Empty Position.vi" Type="VI" URL="../Empty Position.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B!!!!#A!%!!!!$5!$!!&gt;/&gt;7VF=GFD!":!1!!#``````````]!!125:7&amp;N!!"!1(!!(A!!)R*4=86B=G6#982U&lt;'5O&lt;(:M;7)/5X&amp;V98*F,GRW9WRB=X-!%V.R&gt;7&amp;S:5*B&gt;(2M:4J4=86B=G5!'%"!!!,``````````Q!$"V.R&gt;7&amp;S:8-!#5!$!!.$&lt;WQ!#5!$!!.3&lt;X=!'%"!!!,``````````Q!""V2F97UA37Y!(%"!!!,``````````Q!$#F.R&gt;7&amp;S:8-A37Y!!&amp;1!]!!-!!!!!!!#!!1!"1!!!!9!!!!!!!!!"Q!)!A!!?!!!!!!!!!!!!!!*!!!!#1!!!"!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!B!!!!)1!!!!!!%!#1!!!!!</Property>
@@ -143,13 +143,13 @@ The map is only used by a game instance and is not directly accessible to square
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 		<Item Name="Neighbors.vi" Type="VI" URL="../Neighbors.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%$!!!!#1!%!!!!$5!$!!&gt;/&gt;7VF=GFD!":!1!!"`````Q!"#5ZF;7&gt;I9G^S=Q!71%!!!P``````````!!%%6'6B&lt;1!!#5!$!!.3&lt;X=!#5!$!!.$&lt;WQ!1!$R!!!!!!!!!!)35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;"P=WFU;7^O,G.U&lt;!!91&amp;!!!A!%!!5)5'^T;82J&lt;WY!!"B!1!!#``````````]!!1&gt;5:7&amp;N)%FO!&amp;1!]!!-!!!!!!!#!!-!!!!!!!!!"A!!!!!!!!!(!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!)1!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%5!!!!#A!%!!!!$5!$!!&gt;/&gt;7VF=GFD!":!1!!"`````Q!"#5ZF;7&gt;I9G^S=Q!71%!!!P``````````!!%%6'6B&lt;1!!#5!$!!.3&lt;X=!#5!$!!.$&lt;WQ!1!$R!!!!!!!!!!)35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;"P=WFU;7^O,G.U&lt;!!91&amp;!!!A!%!!5)5'^T;82J&lt;WY!!"&amp;!!Q!+1G^B=G1A5WF[:1!!'%"!!!,``````````Q!""V2F97UA37Y!6!$Q!!Q!!!!!!!)!!Q!!!!9!!!!(!!!!!!!!!!A#!!"Y!!!!!!!!!!!!!!E!!!!.#Q!!!!!!!"!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!B!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">34078720</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
 		</Item>
 		<Item Name="Resolve Collisions.vi" Type="VI" URL="../Resolve Collisions.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(;!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!A%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AN.98!O&lt;(:D&lt;'&amp;T=Q!!"UVB=#"P&gt;81!$%!Q`````Q.-&lt;W=!$E!B#%.P&lt;8"M:82F!!")!0%!!!!!!!!!!B*4=86B=G6#982U&lt;'5O&lt;(:M;7)16(6S&lt;C"3:8.V&lt;(2T,G.U&lt;!!=1&amp;!!!A!'!!=-6(6S&lt;C"3:8.V&lt;(2T!!"+!0%!!!!!!!!!!B*4=86B=G6#982U&lt;'5O&lt;(:M;7)16(6S&lt;C"3:8.V&lt;(2T,G.U&lt;!!?1&amp;!!!A!'!!=06(6S&lt;C"3:8.V&lt;(2T)%FO!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!"Y!!#!35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC#UVB=#ZM&gt;G.M98.T!!!'47&amp;Q)'FO!!"B!0!!$!!$!!1!"!!&amp;!!A!"!!*!!1!#A!%!!1!#Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!*!!!!!!!!!"!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
