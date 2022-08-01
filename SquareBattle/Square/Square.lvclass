@@ -78,6 +78,15 @@ When Replicating, the square specifies the new instance of a square to use and c
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
+		<Item Name="End Game.vi" Type="VI" URL="../End Game.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#7!!!!!Q!%!!!!.E"Q!"Y!!#-35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$F.R&gt;7&amp;S:3ZM&gt;G.M98.T!!F4=86B=G5A;7Y!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 		<Item Name="Init.vi" Type="VI" URL="../Init.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'P!!!!#Q!%!!!!.%"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!)6'6B&lt;3"P&gt;81!!$B!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!+5X&amp;V98*F)'^V&gt;!!!#5!$!!.3&lt;X=!#5!$!!.$&lt;WQ!1!$R!!!!!!!!!!)35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;"P=WFU;7^O,G.U&lt;!!91&amp;!!!A!$!!1)5'^T;82J&lt;WY!!!N!"Q!&amp;5G^V&lt;G1!-E"Q!"Y!!#%35X&amp;V98*F1G&amp;U&gt;'RF,GRW&lt;'FC$&amp;2F97UO&lt;(:D&lt;'&amp;T=Q!(6'6B&lt;3"J&lt;A!21!-!#E*P98*E)&amp;.J?G5!!$:!=!!?!!!D%F.R&gt;7&amp;S:5*B&gt;(2M:3ZM&gt;GRJ9AZ4=86B=G5O&lt;(:D&lt;'&amp;T=Q!*5X&amp;V98*F)'FO!'%!]!!-!!!!!1!!!!)!!!!!!!5!"A!!!!=!#!!*!Q!!?!!!!!!!!!U*!!!!!!!!$1M!!!!!!!!!!!!!%!!!!"!!!!!!!!!!%A!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

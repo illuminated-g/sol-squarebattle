@@ -71,6 +71,7 @@
 		<Item Name="Team Colors.vi" Type="VI" URL="../Team Colors.vi"/>
 	</Item>
 	<Item Name="Game.lvclass" Type="LVClass" URL="../Game/Game.lvclass"/>
+	<Item Name="Headless Test.vi" Type="VI" URL="../Headless Test.vi"/>
 	<Item Name="Map.lvclass" Type="LVClass" URL="../Map/Map.lvclass"/>
 	<Item Name="Square.lvclass" Type="LVClass" URL="../Square/Square.lvclass"/>
 	<Item Name="Team.lvclass" Type="LVClass" URL="../Team/Team.lvclass"/>
