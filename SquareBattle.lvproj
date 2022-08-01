@@ -12,20 +12,21 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Squares" Type="Folder">
 			<Item Name="Template" Type="Folder">
-				<Item Name="SquareTeam.lvlib" Type="Library" URL="../Squares/Template/SquareTeam/SquareTeam.lvlib"/>
+				<Item Name="SquareTeam.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/MyTeam/SquareTeam/SquareTeam.lvlib"/>
 			</Item>
-			<Item Name="Clones.lvlib" Type="Library" URL="../Squares/Clones/SquareTeam/Clones.lvlib"/>
-			<Item Name="DemoTeam.lvlib" Type="Library" URL="../Squares/Demo/SquareTeam/DemoTeam.lvlib"/>
-			<Item Name="DNattTeam.lvlib" Type="Library" URL="../Squares/DNatt/SquareTeam/DNattTeam.lvlib"/>
-			<Item Name="Galaxy.lvlib" Type="Library" URL="../Squares/Galaxy/SquareTeam/Galaxy.lvlib"/>
-			<Item Name="Rain.lvlib" Type="Library" URL="../Squares/Rain/SquareTeam/Rain.lvlib"/>
+			<Item Name="Clones.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Clones/SquareTeam/Clones.lvlib"/>
+			<Item Name="DemoTeam.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Demo/SquareTeam/DemoTeam.lvlib"/>
+			<Item Name="DNattTeam.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/DNatt/SquareTeam/DNattTeam.lvlib"/>
+			<Item Name="Galaxy.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Galaxy/SquareTeam/Galaxy.lvlib"/>
+			<Item Name="Rain.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Rain/SquareTeam/Rain.lvlib"/>
 		</Item>
-		<Item Name="SB App.lvlib" Type="Library" URL="../SB App/SB App.lvlib"/>
-		<Item Name="SquareBattle.lvlib" Type="Library" URL="../SquareBattle/SquareBattle.lvlib"/>
+		<Item Name="SB App.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/SB App/SB App.lvlib"/>
+		<Item Name="SquareBattle.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/SquareBattle/SquareBattle.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -54,6 +55,7 @@
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="OOPanel.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/IG OOPanel/OOPanel/OOPanel.lvlib"/>
