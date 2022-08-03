@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,21 +11,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Engine" Type="Folder">
+			<Item Name="SB App.lvlib" Type="Library" URL="../SB App/SB App.lvlib"/>
+			<Item Name="SquareBattle.lvlib" Type="Library" URL="../SquareBattle/SquareBattle.lvlib"/>
+		</Item>
 		<Item Name="Squares" Type="Folder">
-			<Item Name="Template" Type="Folder">
-				<Item Name="SquareTeam.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/MyTeam/SquareTeam/SquareTeam.lvlib"/>
-			</Item>
-			<Item Name="Clones.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Clones/SquareTeam/Clones.lvlib"/>
-			<Item Name="DemoTeam.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Demo/SquareTeam/DemoTeam.lvlib"/>
-			<Item Name="DNattTeam.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/DNatt/SquareTeam/DNattTeam.lvlib"/>
-			<Item Name="Galaxy.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Galaxy/SquareTeam/Galaxy.lvlib"/>
-			<Item Name="Rain.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/Rain/SquareTeam/Rain.lvlib"/>
+			<Item Name="Clones.lvlib" Type="Library" URL="../Squares/Clones/SquareTeam/Clones.lvlib"/>
+			<Item Name="DemoTeam.lvlib" Type="Library" URL="../Squares/Demo/SquareTeam/DemoTeam.lvlib"/>
+			<Item Name="DNattTeam.lvlib" Type="Library" URL="../Squares/DNatt/SquareTeam/DNattTeam.lvlib"/>
+			<Item Name="Galaxy.lvlib" Type="Library" URL="../Squares/Galaxy/SquareTeam/Galaxy.lvlib"/>
+			<Item Name="Rain.lvlib" Type="Library" URL="../Squares/Rain/SquareTeam/Rain.lvlib"/>
 		</Item>
-		<Item Name="Tools Menu" Type="Folder">
-			<Item Name="Update SquareBattle Project.vi" Type="VI" URL="../project/Summer of LabVIEW/Update SquareBattle Project.vi"/>
-		</Item>
-		<Item Name="SB App.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/SB App/SB App.lvlib"/>
-		<Item Name="SquareBattle.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/SquareBattle/SquareBattle.lvlib"/>
+		<Item Name="Launch SquareBattle.vi" Type="VI" URL="../Squares/MyTeam/Launch SquareBattle.vi"/>
+		<Item Name="Readme.txt" Type="Document" URL="../Readme.txt"/>
+		<Item Name="SquareTeam.lvlib" Type="Library" URL="../Squares/MyTeam/SquareTeam/SquareTeam.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -85,6 +85,20 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Square Team ZIP" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">Square Team ZIP</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{AB389ECE-4687-4D80-95BC-319DDBAB0015}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/SquareTeam.lvlib</Property>
+				<Property Name="IncludeProject" Type="Bool">false</Property>
+				<Property Name="Path[0]" Type="Path">../../builds/Square Team/Square Team ZIP/Square Team.zip</Property>
+				<Property Name="ZipBase" Type="Str">Square Team</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+<MetaData>
+  <ProjectTemplate>
+    <Title localize="yes">Summer of LabVIEW - Square Battle</Title>
+    <Description localize="yes">This project creates a new Square Team to implement your battle entry in. A readme is provided in the project for further steps and tips.</Description>
+    <Filters localize="yes">Summer of LabVIEW</Filters>
+    <Keywords localize="yes">summer of labview;challenge;square;squarebattle</Keywords>
+    <LocationPath>SummerOfLabVIEW/SquareBattle</LocationPath>
+    <ProjectPath>template/Square Team.lvproj</ProjectPath>
+    <ListboxImagePath>image/squarebattle.png</ListboxImagePath>
+    <SortPriority>250</SortPriority>
+	<HidePrefix>True</HidePrefix>
+	<HideIconOverlay>True</HideIconOverlay>
+    <MetaDataClass>scripting/SBMetaDataObj/SBMetaDataObj.lvclass</MetaDataClass>
+    <CustomVIPath>scripting/SBMetaDataObj/PostCopyScripting.vi</CustomVIPath>
+    <CustomVIMode>AfterPage2NoUI</CustomVIMode>
+  </ProjectTemplate>  
+</MetaData>
