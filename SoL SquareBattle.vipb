@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-08-16 13:51:54" Creator="Localization Tester" Comments="" ID="0c2ce35d4bdd2dd21fa8820b1aec9a80">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-08-17 08:54:33" Creator="Localization Tester" Comments="" ID="7f5296183798682cab9b3e62cb553dbc">
   <Library_General_Settings>
     <Package_File_Name>summer_of_labview_squarebattle</Package_File_Name>
-    <Library_Version>1.0.0.26</Library_Version>
+    <Library_Version>1.0.0.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -38,6 +38,9 @@ Once a new project is created using the Summer of LabVIEW Square Battle project 
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/sol-squarebattle</URL>
       <Release_Notes>After installing this updated package, you can run the updater tool for existing projects from the Tools menu -&gt; Summer of LabVIEW -&gt; Update SquareBattleProject
+
+1.0.0.26
+Optimized game engine by reducing how many times the positions are iterated over.
 
 1.0.0.25
 Fixed game start bug that resulted in lost state of starting square if using the Start override in a square.
