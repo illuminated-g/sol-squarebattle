@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -15,14 +17,6 @@
 			<Item Name="Next Package Version.vi" Type="VI" URL="../build/Next Package Version.vi"/>
 			<Item Name="VIPM Pre-Build Custom Action.vi" Type="VI" URL="../build/VIPM Pre-Build Custom Action.vi"/>
 		</Item>
-		<Item Name="Dev Utilities" Type="Folder">
-			<Item Name="Get Project Package Version.vi" Type="VI" URL="../dev/Get Project Package Version.vi"/>
-			<Item Name="String to Version.vi" Type="VI" URL="../dev/String to Version.vi"/>
-			<Item Name="Tags.ctl" Type="VI" URL="../dev/Tags.ctl"/>
-			<Item Name="Updater State.ctl" Type="VI" URL="../dev/Updater State.ctl"/>
-			<Item Name="Version Scripting.vi" Type="VI" URL="../dev/Version Scripting.vi"/>
-			<Item Name="Version.ctl" Type="VI" URL="../dev/Version.ctl"/>
-		</Item>
 		<Item Name="Squares" Type="Folder">
 			<Item Name="Template" Type="Folder">
 				<Item Name="SquareTeam.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/Squares/MyTeam/SquareTeam/SquareTeam.lvlib"/>
@@ -36,10 +30,24 @@
 		<Item Name="Tools Menu" Type="Folder">
 			<Item Name="Update SquareBattle Project.vi" Type="VI" URL="../project/Summer of LabVIEW/Update SquareBattle Project.vi"/>
 		</Item>
+		<Item Name="vi.lib" Type="Folder">
+			<Item Name="scripting" Type="Folder">
+				<Item Name="Script Start Game Board Size.vi" Type="VI" URL="../dev/Script Start Game Board Size.vi"/>
+			</Item>
+			<Item Name="Get Project Package Version.vi" Type="VI" URL="../dev/Get Project Package Version.vi"/>
+			<Item Name="String to Version.vi" Type="VI" URL="../dev/String to Version.vi"/>
+			<Item Name="Tags.ctl" Type="VI" URL="../dev/Tags.ctl"/>
+			<Item Name="Updater State.ctl" Type="VI" URL="../dev/Updater State.ctl"/>
+			<Item Name="Version Scripting.vi" Type="VI" URL="../dev/Version Scripting.vi"/>
+			<Item Name="Version to String.vi" Type="VI" URL="../dev/Version to String.vi"/>
+			<Item Name="Version.ctl" Type="VI" URL="../dev/Version.ctl"/>
+		</Item>
+		<Item Name="Release Instructions.txt" Type="Document" URL="../Release Instructions.txt"/>
 		<Item Name="SB App.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/SB App/SB App.lvlib"/>
 		<Item Name="SquareBattle.lvlib" Type="Library" URL="../ProjectTemplates/Source/SummerOfLabVIEW/SquareBattle/template/SquareBattle/SquareBattle.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -74,6 +82,8 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>

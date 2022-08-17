@@ -1,0 +1,25 @@
+Project window relative locations:
+
+1. Run build\Manual VIP Prebuild.vi
+	Updates the version tag for the project template
+
+2. Open vi.lib\Version Scripting.vi
+	2a. Duplicate latest case and update version constant to match version displayed in (1)
+	2b. If needed: Create scripting subVI to update existing projects from the previous upgrade to the new version
+
+3. Add new feature notes to VIPB
+
+4. Build VIPB
+
+5. Copy new VIP to server (c:\SummerOfLabVIEW\www\public\download)
+
+6. Update download URL for SB challenge entry in database
+
+7. Restart server app to load challenge database changes
+
+
+Released versions:
+
+1.0.0.9 (Initial release)
+1.0.0.21 - Board size input for Team:Start
+1.0.0.24 - Direction utilities

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-08-03 22:08:55" Creator="Localization Tester" Comments="" ID="8ee43ffce8859a11ae770238d7c97c62">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-08-16 13:51:54" Creator="Localization Tester" Comments="" ID="0c2ce35d4bdd2dd21fa8820b1aec9a80">
   <Library_General_Settings>
     <Package_File_Name>summer_of_labview_squarebattle</Package_File_Name>
-    <Library_Version>1.0.0.15</Library_Version>
+    <Library_Version>1.0.0.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -37,7 +37,20 @@ Once a new project is created using the Summer of LabVIEW Square Battle project 
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/sol-squarebattle</URL>
-      <Release_Notes>Started versioning scheme for smarter behavior of updater tool.</Release_Notes>
+      <Release_Notes>After installing this updated package, you can run the updater tool for existing projects from the Tools menu -&gt; Summer of LabVIEW -&gt; Update SquareBattleProject
+
+1.0.0.25
+Fixed game start bug that resulted in lost state of starting square if using the Start override in a square.
+
+1.0.0.24
+Added team index value to Square:Direction Status
+Added Square:Neighbors VI to retrieve team indices for all directions
+Added utility VIs for finding nearest direction enumeration from degree or radian heading.
+Added utility VI for finding the direction enumeration value from one position to another.
+
+1.0.0.21
+Added Board Size to Team:Start Game
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -160,12 +173,6 @@ Once a new project is created using the Summer of LabVIEW Square Battle project 
       </Exclusions>
       <Exclusions>
         <Path>LICENSE</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>dev/VIPM Pre-Build Custom Action.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>dev/Next Package Version.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>build</Path>
