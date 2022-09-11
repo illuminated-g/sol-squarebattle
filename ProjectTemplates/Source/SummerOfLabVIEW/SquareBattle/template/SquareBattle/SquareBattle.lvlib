@@ -67,6 +67,8 @@
 			<Item Name="Rotate CW.vi" Type="VI" URL="../Rotate CW.vi"/>
 		</Item>
 		<Item Name="Position" Type="Folder">
+			<Item Name="Distance.vi" Type="VI" URL="../Distance.vi"/>
+			<Item Name="Manhattan Distance.vi" Type="VI" URL="../Manhattan Distance.vi"/>
 			<Item Name="Normalize Position.vi" Type="VI" URL="../Normalize Position.vi"/>
 			<Item Name="Resolve Direction Position.vi" Type="VI" URL="../Resolve Direction Position.vi"/>
 		</Item>

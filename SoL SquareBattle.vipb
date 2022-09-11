@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-08-17 13:37:26" Creator="Localization Tester" Comments="" ID="16d14b060a0322188efeeb33c398bf85">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-09-10 23:58:59" Creator="Localization Tester" Comments="" ID="e84afb24d41b943c62c602030ef492cd">
   <Library_General_Settings>
     <Package_File_Name>summer_of_labview_squarebattle</Package_File_Name>
-    <Library_Version>1.0.0.28</Library_Version>
+    <Library_Version>1.0.0.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -39,8 +39,18 @@ Once a new project is created using the Summer of LabVIEW Square Battle project 
       <URL>https://github.com/illuminated-g/sol-squarebattle</URL>
       <Release_Notes>After installing this updated package, you can run the updater tool for existing projects from the Tools menu -&gt; Summer of LabVIEW -&gt; Update SquareBattleProject
 
+1.0.0.30
+Add video saving when FFMpeg is available (need to download separately)
+
+1.0.0.29
+Add distance calculation utilities.
+
+1.0.0.28
+Change map updates  to a lossy event scheme.
+
 1.0.0.27
 Optimized game engine by reducing how many times the positions are iterated over.
+Bugfix for squares being slept when they didn't take a replicate action.
 
 1.0.0.25
 Fixed game start bug that resulted in lost state of starting square if using the Start override in a square.
