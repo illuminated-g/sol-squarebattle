@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-09-10 23:58:59" Creator="Localization Tester" Comments="" ID="e84afb24d41b943c62c602030ef492cd">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2022-09-11 13:51:07" Creator="Localization Tester" Comments="" ID="5d59bb24afbfbab2940e8150a336df54">
   <Library_General_Settings>
     <Package_File_Name>summer_of_labview_squarebattle</Package_File_Name>
-    <Library_Version>1.0.0.30</Library_Version>
+    <Library_Version>1.0.0.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -39,8 +39,9 @@ Once a new project is created using the Summer of LabVIEW Square Battle project 
       <URL>https://github.com/illuminated-g/sol-squarebattle</URL>
       <Release_Notes>After installing this updated package, you can run the updater tool for existing projects from the Tools menu -&gt; Summer of LabVIEW -&gt; Update SquareBattleProject
 
-1.0.0.30
+1.0.0.36
 Add video saving when FFMpeg is available (need to download separately)
+Implemented Match limits (rounds, time)
 
 1.0.0.29
 Add distance calculation utilities.
