@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2023-04-15 14:20:11" Creator="Localization Tester" Comments="" ID="6bac2f837653c0595442d557e953e342">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-01 20:20:03" Modified_Date="2023-06-17 09:24:22" Creator="Localization Tester" Comments="" ID="52882bed72b144ffb0d49321fc33cf53">
   <Library_General_Settings>
     <Package_File_Name>summer_of_labview_squarebattle</Package_File_Name>
-    <Library_Version>1.0.1.37</Library_Version>
+    <Library_Version>1.2.0.51</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_oopanel &gt;= 0.2.0.28</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_oopanel-0.2.0.28</Direct_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_oopanel &gt;= 0.2.1.30</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_oopanel-0.2.1.30</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -39,35 +39,24 @@ Once a new project is created using the Summer of LabVIEW Square Battle project 
       <URL>https://github.com/illuminated-g/sol-squarebattle</URL>
       <Release_Notes>After installing this updated package, you can run the updater tool for existing projects from the Tools menu -&gt; Summer of LabVIEW -&gt; Update SquareBattleProject
 
-1.0.1.37
-Project creation automatically renames team library to match project name
+1.2.0.50
+-Fixed reentrancy in OOPanel dependency and updated SquareBattle to match. Fixes classes staying locked after running UI and team list no longer populating.
+- Added save all in project after project creation from template to eliminate the chance someone closes and doesn't save which breaks the project after renaming the team library.
+
+1.1.0.46
+Changed output of squares' Run VI to non-dynamic dispatch square so that a square can change implementations.
+
+1.0.2.44
+Fixed issue from Hill Youth typedef not being in library so it wasn't copied with project template
+Added rules to readme along with links to videos and discord server
+
+1.0.1.43
+Project creation automatically renames team library &amp; team name  to match project name
 Added Chaim Bloch's The Hill Youth team to project
 
 1.0.0.36
 Add video saving when FFMpeg is available (need to download separately)
 Implemented Match limits (rounds, time)
-
-1.0.0.29
-Add distance calculation utilities.
-
-1.0.0.28
-Change map updates  to a lossy event scheme.
-
-1.0.0.27
-Optimized game engine by reducing how many times the positions are iterated over.
-Bugfix for squares being slept when they didn't take a replicate action.
-
-1.0.0.25
-Fixed game start bug that resulted in lost state of starting square if using the Start override in a square.
-
-1.0.0.24
-Added team index value to Square:Direction Status
-Added Square:Neighbors VI to retrieve team indices for all directions
-Added utility VIs for finding nearest direction enumeration from degree or radian heading.
-Added utility VI for finding the direction enumeration value from one position to another.
-
-1.0.0.21
-Added Board Size to Team:Start Game
 </Release_Notes>
     </Description>
     <Destinations>

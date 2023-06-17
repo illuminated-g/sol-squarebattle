@@ -15,6 +15,8 @@
 		<Item Name="build" Type="Folder">
 			<Item Name="Manual VIP Prebuild.vi" Type="VI" URL="../build/Manual VIP Prebuild.vi"/>
 			<Item Name="Next Package Version.vi" Type="VI" URL="../build/Next Package Version.vi"/>
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../build/Post-Install Custom Action.vi"/>
+			<Item Name="Post-Install Update Alert.vi" Type="VI" URL="../build/Post-Install Update Alert.vi"/>
 			<Item Name="VIPM Pre-Build Custom Action.vi" Type="VI" URL="../build/VIPM Pre-Build Custom Action.vi"/>
 		</Item>
 		<Item Name="Squares" Type="Folder">
@@ -32,9 +34,15 @@
 		</Item>
 		<Item Name="vi.lib" Type="Folder">
 			<Item Name="scripting" Type="Folder">
+				<Item Name="support" Type="Folder">
+					<Item Name="Find Project Square Paths.vi" Type="VI" URL="../dev/Find Project Square Paths.vi"/>
+					<Item Name="Run Scripting in Project Context.vi" Type="VI" URL="../dev/Run Scripting in Project Context.vi"/>
+				</Item>
+				<Item Name="Script Non-Dynamic Square Run Output.vi" Type="VI" URL="../dev/Script Non-Dynamic Square Run Output.vi"/>
 				<Item Name="Script Start Game Board Size.vi" Type="VI" URL="../dev/Script Start Game Board Size.vi"/>
 			</Item>
 			<Item Name="Get Project Package Version.vi" Type="VI" URL="../dev/Get Project Package Version.vi"/>
+			<Item Name="Scripting-Scratchpad.vi" Type="VI" URL="../dev/Scripting-Scratchpad.vi"/>
 			<Item Name="String to Version.vi" Type="VI" URL="../dev/String to Version.vi"/>
 			<Item Name="Tags.ctl" Type="VI" URL="../dev/Tags.ctl"/>
 			<Item Name="Updater State.ctl" Type="VI" URL="../dev/Updater State.ctl"/>
@@ -80,7 +88,6 @@
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
